@@ -1,0 +1,51 @@
+.albumContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    text-align: center;
+    border: 2px solid gray;
+    border-radius: 25px;
+    width: 250px;
+}
+
+.albumImage {
+    width: 250px;
+    height: 250px;
+    border-top-left-radius: 23px;
+    border-top-right-radius: 23px;
+    border-bottom: 2px solid gray;
+}
+
+.albumContainer > h2, .albumContainer > h3 {
+    margin-top: 0.5em;
+    margin-bottom: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.albumRating {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    padding-left: 5px;
+    padding-bottom: 0.5em;
+}
+
+.albumYear, .albumArtist {
+    color: gray;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 90vw;
+}
+
+.albumContainer:nth-child(odd) {
+    grid-column: span 2;
+}
+
+.albumContainer:nth-child(even) {
+    grid-column: 2 / 4;
+}
+  

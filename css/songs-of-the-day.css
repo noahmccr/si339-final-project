@@ -1,0 +1,49 @@
+.flex-layout {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.songContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    text-align: center;
+    border: 2px solid gray;
+    width: 200px;
+    border-radius: 25px;
+}
+
+.songImage {
+    width: 200px;
+    height: 200px;
+    border-top-left-radius: 23px;
+    border-top-right-radius: 23px;
+    border-bottom: 2px solid gray;
+}
+
+.songContainer > h2, .songContainer > h3 {
+    margin-top: 0.5em;
+    margin-bottom: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.songContainer > h4 {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    color: rgb(70, 70, 70);
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.songArtist {
+    color: rgb(231, 0, 0);
+}
+
+.songAlbum {
+    color: rgb(70, 70, 70);
+}
