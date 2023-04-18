@@ -1,0 +1,26 @@
+.articleContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    text-align: center;
+    border: 2px solid gray;
+    border-radius: 25px;
+    width: 250px;
+}
+
+.articleImage {
+    width: 250px;
+    border-top-left-radius: 23px;
+    border-top-right-radius: 23px;
+    border-bottom: 2px solid gray;
+}
+
+a {
+    text-decoration: none;
+}
+
+.articleText {
+    padding: 10px;
+    color: black;
+}

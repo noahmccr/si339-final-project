@@ -1,3 +1,91 @@
 body {
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
+
+header {
+    background-color: #333;
+    padding: 14px 16px;
+    color: white;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #111;
+    font-weight: bold;
+}
+
+.activeNavLink {
+    font-weight:bold;
+    background-color: green;
+    text-decoration:underline;
+}
+
+.skipLink {
+    background: white;
+    left: 50%;
+    padding: 8px;
+    position: absolute;
+    transform: translateY(-1000px);
+    transition: transform 0.3s;
+}
+
+.skipLink:focus {
+    transform: translateY(0px);
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+main {
+    padding-left: 10px;
+}
+
+ol {
+    list-style-type: decimal;
+    list-style-position: inside;
+  }
+
+footer {
+    background-color: #333;
+    padding: 20px;
+    color: white;
+    margin-top: 20px;
+}

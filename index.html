@@ -4,30 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Music Blog</title>
-    <!-- Add your CSS file here -->
+    <!-- CSS files -->
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
     <header>
-        <!-- Common header content -->
+        Music Bug
     </header>
     <nav>
         <ul>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html" class="activeNavLink">Home</a></li>
             <li><a href="album-reviews.html">Album Reviews</a></li>
             <li><a href="songs-of-the-day.html">Songs of the Day</a></li>
         </ul>
     </nav>
-    <a href="#main">Jump to Content</a>
+    <a href="#main" class="skipLink" tabindex="1">Jump to Content</a>
     <main id="main">
         <h1>Welcome to Music Bug</h1>
         <p>Welcome to my music blog! Here you will find information on albums I have listened to and ranked, as well as a song of the day posted every day.</p>
         <section>
             <h2>Latest Articles</h2>
             <!-- Article previews -->
+                <div class="articleContainer">
+                <a href ="the-doors.html">
+                    <img class="articleImage" alt="Members of The Doors posing for a photo" src="https://upload.wikimedia.org/wikipedia/commons/6/60/Doors_electra_publicity_photo.JPG"/>
+                    <div class="articleText">
+                        <h2 class="articleTitle">Every Song By The Doors, Ranked</h2>
+                        <h3 class="articleDescription">Or at least, every song that matters. I ranked every song from The Doors' first 6 studio albums (the good ones).</h3>
+                        <h4 class="articleDateAdded">April 1, 2023</h4>
+                    </div>
+                </a>
+                </div>
+            
         </section>
     </main>
     <footer>
-        <!-- Common footer content -->
+        &copy; Noah McCreery 2023
     </footer>
 </body>
 </html>
